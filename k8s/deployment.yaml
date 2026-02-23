@@ -16,6 +16,6 @@ spec:
         - name: ecr-secret
       containers:
         - name: myapp
-          image: 420838436623.dkr.ecr.ap-south-1.amazonaws.com/hello-java:main
+          image: 420838436623.dkr.ecr.ap-south-1.amazonaws.com/hello-java:main-8
           ports:
             - containerPort: 8080
