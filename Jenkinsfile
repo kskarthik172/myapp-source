@@ -24,7 +24,7 @@ pipeline {
         AWS_ACCOUNT_ID = '420838436623'
         ECR_REPO_NAME = 'hello-java'
         ECR_REGISTRY = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
-        IMAGE_TAG = "${params.BRANCH}-${BUILD_NUMBER}"
+        IMAGE_TAG = "${params.BRANCH}"
         FULL_IMAGE_NAME = "${ECR_REGISTRY}/${ECR_REPO_NAME}:${IMAGE_TAG}"
     }
 

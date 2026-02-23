@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 420838436623.dkr.ecr.ap-south-1.amazonaws.com/hello-java:main-1
+          image: 420838436623.dkr.ecr.ap-south-1.amazonaws.com/hello-java:main
           ports:
             - containerPort: 8080
