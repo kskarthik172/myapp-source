@@ -12,6 +12,8 @@ spec:
       labels:
         app: myapp
     spec:
+      imagePullSecrets:
+        - name: ecr-secret
       containers:
         - name: myapp
           image: 420838436623.dkr.ecr.ap-south-1.amazonaws.com/hello-java:main
